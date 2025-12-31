@@ -1,38 +1,67 @@
 <html>
 <head>
-<title>NC Application Form</title>
+<title>Nambi Dental Clinic</title>
 <style>
-    form {
-        width:500px;
-        height: 500px;
+    body{
+        text-align: center;
+    }
+    form{
+        width:fit-content;
+        height: fit-content;
+        text-align:center;
+    }
+    h2{
+        text-align:center;
     }
 </style>
 </head>
+
 <body>
-<center>
-<fieldset>
-<p style="text-align:center;"><h2>New Aplication Form</h2></p><br>
-<form >
-First Name         :<input type = "text">
-<br><br>
-Last Name         :<input type = "text">
-<br><br>
-Date Of Birth    :<input type = "text">
-<br><br>
-Gender                :<input type = "Radio" name ="gender">Male  <input type = "Radio" name ="gender">Female
-<br><br>
-Date of Appication :<input type = "text" >
-<br><br>
-Email-ID             :<input type = "text">
-<br><br>
-Phone no.          :<input type = "number">
-<br><br>
-Verify Mobile Number:<input type = "text"><button style = "background-color: blue;">Get OTP</button>
-<br>
-<br>
-<button style="width: 100px;height: 40px;""><a href="file:///C:/Users/HP/Desktop/dent-webpage.html">Confirm</a></button>
-</form>
-</fieldset>
-</center>
+    <fieldset>
+        <h2>New Aplication Form</h2>
+        <form >
+            <table>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td>:<input type = "text" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label>Date Of Birth</label></td>
+                    <td>:<input type = "text"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>:<input type = "Radio" name ="gender" id="male">Male</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>&nbsp;<input type = "Radio" name ="gender" id="female">Female</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>&nbsp;<input type = "Radio" name ="gender" id="other">Other</td>
+                </tr>
+                <tr>
+                    <td><label>Date of Appication</label></td>
+                    <td>:<input type = "text"></td>
+                </tr>
+                <tr>
+                    <td><label>Email-ID</label></td>
+                    <td>:<input type = "text" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Phone no.</label></td>
+                    <td>:<input type = "number" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label>Verify Mobile Number</label> <button>Get OTP</button></td>
+                    <td>:<input type = "text"></td>
+                </tr>
+            </table>
+
+            <button><a href="Nambi-Clinic/login.html">Submit</a></button>
+            <button><a href="Nambi-Clinic/newapplication.html">Clear</a></button>
+        </form>
+    </fieldset>
 </body>
 </html>
